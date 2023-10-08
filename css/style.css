@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    font-family: sans-serif;
+    font-family: "Gill Sans", sans-serif;
     text-align: center;
 }
 a, p {
@@ -26,7 +26,7 @@ a, p {
 }
 /*------------------- Gallery Page -------------------*/
 .page {
-    padding: 80px 15px 65px;
+    padding: 80px 15px 0;
 }
 @media (max-width: 576px) {
     .page {
@@ -36,4 +36,9 @@ a, p {
 .wrap {
     max-width: 1570px;
     margin: 0 auto;
+}
+
+.description {
+    margin: 10px 0;
+    font-weight: 100; 
 }
