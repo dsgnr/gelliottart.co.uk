@@ -5,11 +5,36 @@ html, body {
 }
 a, p {
     color: var(--bs-secondary);
+    text-decoration: none;
+}
+.btn-outline-primary {
+    color: var(--bs-body-color);
+    border-color: var(--bs-body-color);
+    width: auto;
+    border-radius: 0;
+    margin: 0 auto;
+}
+.btn.btn-outline-primary:hover {
+    background-color: var(--bs-body-color);
+    border-color: var(--bs-body-color);
+    color: var(--bs-light);
+}
+.btn.btn-outline-primary:active {
+    background-color: var(--bs-body-color);
+    opacity: 0.8;
+}
+h1, h2 {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+hr {
+    width: 50%;
+    margin: 25px auto;
 }
 @media (min-width: 1200px) {
     .container {
         max-width: 1200px;
-    }
+   }
 }
 /*--------------------- Header section -----------------------*/
 .header {
@@ -19,26 +44,33 @@ a, p {
 @media (max-width: 576px) {
     .header {
         padding: 40px 0 0;
-    }
+   }
 }
 .site-logo img {
     width: 150px;
 }
+.splash {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 /*------------------- Gallery Page -------------------*/
 .page {
-    padding: 80px 15px 0;
+    padding: 40px 15px 0;
 }
 @media (max-width: 576px) {
     .page {
         padding: 30px 15px;
-    }
+   }
 }
 .wrap {
     max-width: 1570px;
     margin: 0 auto;
 }
-
 .description {
     margin: 10px 0;
-    font-weight: 100; 
+    font-weight: 100;
+}
+/*------------------- Footer -------------------*/
+.email {
+    text-decoration: underline;
 }
