@@ -29,7 +29,7 @@ h1, h2 {
 }
 hr {
     width: 50%;
-    margin: 25px auto;
+    margin: 10px auto 40px;
 }
 @media (min-width: 1200px) {
     .container {
@@ -50,8 +50,7 @@ hr {
     width: 150px;
 }
 .splash {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin: 20px 0 0 0;
 }
 /*------------------- Gallery Page -------------------*/
 .page {
